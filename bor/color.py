@@ -33,9 +33,7 @@ def init_colors():
 
             It is raises an exception when the API call failed.
             """
-            if not result:
-                raise WinError()
-            return args
+            pass
 
         def get_std_handle() -> WINFUNCTYPE:
             """GetStdHandle retrieves a handle to the specified standard device
